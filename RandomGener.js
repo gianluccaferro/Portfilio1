@@ -6,4 +6,4 @@ let rndMsg = () => {
     return msg[nbr]
 }
 
-console.log(rndMsg)
+console.log(rndMsg())
