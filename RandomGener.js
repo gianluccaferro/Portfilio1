@@ -6,4 +6,10 @@ let rndMsg = () => {
     return msg[nbr]
 }
 
+let addWord = (word) => {
+    msg.push(word)
+}
+
+addWord('gina')
+console.log(msg)
 console.log(rndMsg())
